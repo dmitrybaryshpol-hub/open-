@@ -15,7 +15,7 @@ logging.basicConfig(
 LOGGER = logging.getLogger(__name__)
 
 SOCIAL_DOMAINS = ["instagram.com", "twitter.com", "x.com", "tiktok.com"]
-URL_RE = re.compile(r"https?://[^"]+")
+URL_RE = re.compile(r'https?://[^\s"<>]+')
 
 
 def extract_social_url(text: str) -> Optional[str]:
