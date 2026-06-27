@@ -5,6 +5,21 @@
         "git commit": true,
         "git push": true,
         "git ls-remote": true,
-        "&": true
+        "&": true,
+        "railway": true,
+        "gh": true,
+        "C:/Users/dmitr/AppData/Local/Programs/Python/Python313/python.exe": true,
+        "/^Set-Location -LiteralPath \"c:\\\\Users\\\\dmitr\\\\OneDrive\\\\Робочий стіл\\\\Wrap 1654\\\\app\\\\wrap_app v\\.1\\\\Нова папка\\\\TG bot\\\\tg-media-preview-bot\"; & \"C:/Users/dmitr/AppData/Local/Programs/Python/Python313/python\\.exe\" - <<'PY'\nimport sys\nprint\\(sys\\.version\\)\ntry:\n    import aiogram\n    import yt_dlp\n    import dotenv\n    print\\('IMPORT_OK'\\)\nexcept Exception as e:\n    print\\('IMPORT_FAIL', e\\)\nPY$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^Set-Location -LiteralPath 'c:\\\\Users\\\\dmitr\\\\OneDrive\\\\Робочий стіл\\\\Wrap 1654\\\\app\\\\wrap_app v\\.1\\\\Нова папка\\\\TG bot\\\\tg-media-preview-bot'; & 'C:\\\\Users\\\\dmitr\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python313\\\\python\\.exe' -m py_compile bot\\.py; & 'C:\\\\Users\\\\dmitr\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python313\\\\python\\.exe' -c \"import aiogram, yt_dlp, dotenv; print\\('IMPORT_OK'\\)\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^cmd\\.exe /c \"cd /d \"c:\\\\Users\\\\dmitr\\\\OneDrive\\\\Робочий стіл\\\\Wrap 1654\\\\app\\\\wrap_app v\\.1\\\\Нова папка\\\\TG bot\\\\tg-media-preview-bot\" ; C:\\\\Users\\\\dmitr\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python313\\\\python\\.exe -m py_compile bot\\.py\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
     }
 }
